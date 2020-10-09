@@ -70,6 +70,7 @@ main
     flex-direction: row;
     height: auto;
     width: auto;
+    flex-wrap: wrap;
     
     
     
@@ -94,8 +95,8 @@ img
     width: 100%;
     height: auto;
     object-fit: contain;
+    padding: 50px;
     min-width: 300px;
-    display: flex;
     
 }
 .text
@@ -110,14 +111,15 @@ img
     padding: 10px;
     flex: 1 0 0px;
     margin-left: 2px;
-
+    width: 100%;
+    min-width: 300px;
     
 }
 
 .sectionCoantainerTwo
 {
     display: flex;
-    
+    margin-top: 50px;
     text-align: justify;
     justify-content: right;
     
@@ -145,9 +147,7 @@ img
     font-style: italic;
 }
 a{
-    text-decoration: none;
-    color: black;
-}
+
 .imgText
 {
     font-size: medium;
